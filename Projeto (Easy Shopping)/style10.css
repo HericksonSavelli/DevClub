@@ -118,28 +118,31 @@ header {
     header {
         display: none;
     }
-h1{
-    font-size: 36px;
-    font-weight: 400;
-    width: auto;
-    margin: 58px 50px 0 50px;
-    text-align: center;
-}
-   p {
-    margin: 15px 40px;
-    width: auto;
-    text-align: center;
-    line-height: 24px;
-    font-size: 14px;
-   } 
 
-   button{
-    margin: 0 auto;
-    display: block;
-   }
+    h1 {
+        font-size: 36px;
+        font-weight: 400;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
 }
+
 @media screen and (max-width: 375px) {
-    .container-left{
+    .container-left {
         height: 70%;
     }
 }
